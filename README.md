@@ -1,4 +1,4 @@
-#NodeJs Youtube Player
+# NodeJs Youtube Player
 
 ### Install
 ```bash
@@ -9,7 +9,7 @@ On Debian/Ubuntu, the ALSA backend is selected by default, so be sure to have th
 sudo apt-get install libasound2-dev
 ```
 
-###Use
+### Use
 ```js
 const YoutubePlay = require('node-youtube-player');
 
@@ -19,7 +19,7 @@ const yt = new YoutubePlay("<YOUR-YOUTUBE-TOKEN>", true);
 yt.play("God's Plan");
 ```
 
-###Events
+### Events
 ```js
 const YoutubePlay = require('node-youtube-player');
 
