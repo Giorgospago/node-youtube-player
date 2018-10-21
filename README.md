@@ -16,7 +16,7 @@ const YoutubePlay = require('node-youtube-player');
 // (optional) Pass true as second argument to enable Debugging console logs
 const yt = new YoutubePlay("<YOUR-YOUTUBE-TOKEN>", true);
 
-yt.play("God's Plan");
+yt.play("In my feelings");
 ```
 
 ### Events
@@ -26,7 +26,7 @@ const YoutubePlay = require('node-youtube-player');
 // (optional) Pass true as second argument to enable Debugging console logs
 const yt = new YoutubePlay("<YOUR-YOUTUBE-TOKEN>", true);
 
-yt.play("God's Plan");
+yt.play("In my feelings");
 
 yt.events.on("play", () => {
     console.log("Music playing...");
