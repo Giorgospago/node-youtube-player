@@ -19,6 +19,18 @@ const yt = new YoutubePlay("<YOUR-YOUTUBE-TOKEN>", true);
 yt.play("In my feelings");
 ```
 
+### Methods
+```js
+// Play music
+yt.play("Despacito");
+
+// Pause music
+yt.pause();
+
+// Stop music
+yt.stop();
+```
+
 ### Events
 ```js
 const YoutubePlay = require('node-youtube-player');
